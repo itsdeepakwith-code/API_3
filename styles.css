@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #8e44ad,
+    #9b59b6,
+    #be90d4
+  ); /* Gradient background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.custom-search-container {
+  background-color: rgba(190, 87, 200, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.custom-search-container form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.custom-search-container input[type="text"],
+.custom-search-container button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.custom-search-container button[type="submit"] {
+  background-color: #8e44ad;
+  color: #ffffff;
+}
+
+#results {
+  margin-top: 20px;
+}
